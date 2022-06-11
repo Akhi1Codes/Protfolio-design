@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;500;900&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family:'Heebo', sans-serif;;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5% 8%;
+}
+.nav-list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 200;
+}
+.nav-ele{
+    min-width: 28em;
+}
+.home-main{
+    display: flex;
+    justify-content: space-around;
+    height: 75vh;
+    align-items: center;
+    position: relative;
+}
+.image{
+    width: 100%;
+    max-width: 350px;
+    max-height: 700px;
+    height: auto;
+    margin-right: 4em;
+}
+.main-text{
+   padding-top: 18%;
+}
+.fst-line{
+    font-weight: 500;
+}
+.fst-line span{
+    font-weight: 100;
+}
+.snd-line{
+    font-weight: 900;
+    font-size: 2.5rem;
+}
+.thd-line{
+    font-size: 0.9rem;
+}
+.links{
+    width: 22.5em;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 5.8em;
+}
+.scroll{
+    display: flex;
+    height: 4.5em;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ////////////////////////// */
+ 
+.projects{
+    height: 100vh;
+}
+.pro-text{
+    padding-top: 0.5em;
+}
+.pro-text-main{
+    padding-left: 2.7em;
+    font-weight: 900;
+    font-size: 2.5rem;
+}
+.pro-text-sub{
+    padding-left: 6.8em;
+}
+.main-pro{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 0% 8%;
+    row-gap: 10%;
+    column-gap: 25%;
+}
