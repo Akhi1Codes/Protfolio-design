@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;300;500;900&display=swap');
 
 *{
     padding: 0%;
@@ -38,7 +38,7 @@
 .main-text{
    padding-top: 18%;
 }
-.fst-line{
+.fst-line {
     font-weight: 500;
 }
 .fst-line span{
@@ -70,7 +70,7 @@
     height: 100vh;
 }
 .pro-text{
-    padding-top: 0.5em;
+    padding: 0.5em 0 1em 0;
 }
 .pro-text-main{
     padding-left: 2.7em;
@@ -79,12 +79,42 @@
 }
 .pro-text-sub{
     padding-left: 6.8em;
+    font-weight:400;
 }
 .main-pro{
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
     padding: 0% 8%;
-    row-gap: 10%;
-    column-gap: 25%;
+    row-gap: 5%;
+    column-gap: 20%;
+}
+.grid-name-main{
+    font-weight: 800;
+}
+.grid-name-sub{
+    font-weight: 300;
+    font-size: 10px;
+}
+.grid-button{
+    display: flex;
+    flex-direction: row;
+    max-width: 22em ;
+    flex-grow: 2;
+    padding-top: 0.5em;
+    gap: 0.7em;
+}
+.button1{
+    flex-grow: 1;
+    background-color: white;
+    border-style: none;
+    border: 1px solid black;
+    padding: 1px;
+}
+.button2{
+    flex-grow: 1;
+    background-color: white;
+    border-style: none;
+    border: 1px solid black;
+    font-weight: 300;
 }
