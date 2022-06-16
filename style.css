@@ -190,3 +190,55 @@ p > span{
     height: 100vh;
     padding-top: 5em;
 }
+.pro-text-subss{
+    font-size: 0.9em;
+}
+.cnt-flex{
+    display: flex;
+    justify-content: space-around;
+    max-width: 73em;
+}
+.cnt-name{
+    font-size: 0.8em;
+    font-weight: 500;
+}
+.label-name-text{
+    width: 28em;
+    height: 2em;
+    border: 1px solid black;
+}
+.label-name-msg{
+    width: 28em;
+    height: 7em;
+    border: 1px solid black;
+}
+.label-btn{
+    background-color: white;
+    border-style: none;
+    border: 1px solid black;
+    padding: 0.3em 3em 0.3em 3em;
+    margin-left: 43%;
+}
+.label-padin{
+    padding-top: 1em;
+}
+
+/* /////////////////////////////////////////////// */
+
+footer{
+    width: 100%;
+    height: 90px;
+    background-color: #1D1D1E;
+}
+
+.footer-flex{
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+.footer-socials{
+    display: flex;
+    gap:1.5em;
+}
