@@ -4,6 +4,7 @@
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 body{
     font-family:'Heebo', sans-serif;
@@ -17,6 +18,10 @@ body{
     align-items: center;
     padding: 0.5% 8%;
 }
+.nav-list > a{
+    text-decoration: none;
+    color: inherit;
+}
 .nav-list{
     display: flex;
     justify-content: space-around;
@@ -26,6 +31,7 @@ body{
 .nav-ele{
     min-width: 28em;
     cursor: pointer;
+    text-decoration: none;
 }
 .home-main{
     display: flex;
@@ -77,8 +83,6 @@ body{
 
 /* ////////////////////////// */
  
-.projects{
-}
 .pro-text{
     padding: 0.5em 0 1em 0;
 }
@@ -93,11 +97,10 @@ body{
 }
 .main-pro{
     display: grid;
-    grid-row-gap: 5%;
-    grid-column-gap: 20%;
+    height: 40em;
     grid-template-columns:1fr 1fr;
-    align-items: center;
-    padding: 0% 8%;
+    align-items:center;
+    justify-items: center;
 }
 .grid-name-main{
     font-weight: 800;
@@ -120,6 +123,7 @@ body{
     border-style: none;
     border: 1px solid black;
     padding: 0.5em;
+    cursor: pointer;
 }
 .button2{
     flex-grow: 1;
@@ -127,6 +131,7 @@ body{
     border-style: none;
     border: 1px solid black;
     font-weight: 300;
+    cursor: pointer;
 }
 
 /* /////////////////////////////// */
@@ -145,11 +150,10 @@ body{
     display: flex;
     justify-content: space-around;
     padding-top: 3em;
-    max-width: 72em;
 }
 .abt-text{
     max-width: 38em;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
 }
 p > span{
@@ -159,8 +163,6 @@ p > span{
     display: flex;
     justify-content: space-around;
     padding-top: 3em;
-    max-width: 72em;
-    gap: 7em;
 }
 .abt-text-sub{
     display: flex;
@@ -177,7 +179,7 @@ p > span{
 }
 .abt-test2{
     font-family: 'Grape Nuts', cursive;
-    font-size: 26px;
+    font-size: 35px;
 }
 .abt-test2-sub{
     font-family:'Heebo', sans-serif;
@@ -188,7 +190,7 @@ p > span{
 /* /////////////////////////////// */
 
 .contact{
-    padding-top: 5em;
+    padding-top: 3em;
 }
 .pro-text-subss{
     font-size: 0.9em;
@@ -196,7 +198,6 @@ p > span{
 .cnt-flex{
     display: flex;
     justify-content: space-around;
-    max-width: 73em;
 }
 .cnt-name{
     font-size: 0.8em;
@@ -212,9 +213,9 @@ p > span{
     border: 1px solid black;
 }
 .label-name-msg{
-    width: 28em;
-    height: 7em;
     border: 1px solid black;
+    outline: none;
+    resize: none;
 }
 .label-btn{
     background-color: white;
