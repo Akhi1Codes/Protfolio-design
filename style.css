@@ -9,9 +9,6 @@
 body{
     font-family:'Heebo', sans-serif;
 }
-.wrapper{
-    overflow: auto;
-}
 .navigation{
     display: flex;
     justify-content: space-between;
@@ -22,11 +19,14 @@ body{
     text-decoration: none;
     color: inherit;
 }
+a:hover{
+    border-bottom: 2px dotted #212121;
+}
 .nav-list{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-weight: 200;
+    font-weight: 300;
 }
 .nav-ele{
     min-width: 28em;
@@ -46,10 +46,6 @@ body{
     max-height: 700px;
     height: auto;
     margin-right: 4em;
-}
-.dark-moon{
-    background-color: black;
-    border-radius: 50%;
 }
 .main-text{
    padding-top: 18%;
@@ -124,6 +120,14 @@ body{
     border: 1px solid black;
     padding: 0.5em;
     cursor: pointer;
+    transition: background-color,color 0.5s;
+}
+.button1:hover,
+.button2:hover,
+.label-btn:hover
+{
+    background-color: #212121;
+    color: white;
 }
 .button2{
     flex-grow: 1;
@@ -132,6 +136,7 @@ body{
     border: 1px solid black;
     font-weight: 300;
     cursor: pointer;
+    transition: background-color,color 1s;
 }
 
 /* /////////////////////////////// */
@@ -223,6 +228,7 @@ p > span{
     border: 1px solid black;
     padding: 0.3em 3em 0.3em 3em;
     margin-left: 43%;
+    transition: background-color,color 1s;
 }
 .label-padin{
     padding-top: 1em;
@@ -248,3 +254,15 @@ footer{
     gap:1.5em;
     cursor: pointer;
 }
+
+/* ////////////////////////////////////// */
+
+.dark-mode{
+    background-color:#212121;
+    color: white;
+}
+.dark-moon{
+    border: #212121 solid 1px;
+    border-radius: 50%;
+} 
+
