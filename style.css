@@ -70,17 +70,11 @@ a:hover{
     padding-left: 5.8em;
     cursor: pointer;
 }
-.scroll{
-    display: flex;
-    height: 4.5em;
-    justify-content: center;
-    align-items: center;
-}
 
 /* ////////////////////////// */
  
 .pro-text{
-    padding: 0.5em 0 1em 0;
+    padding: 5em 0 1em 0;
 }
 .pro-text-main{
     padding-left: 2.7em;
