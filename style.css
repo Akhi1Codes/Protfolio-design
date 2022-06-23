@@ -6,6 +6,10 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
+:root{
+    --main-color:#ffffff;
+    --dark-main-color:#212121;
+}
 body{
     font-family:'Heebo', sans-serif;
 }
@@ -20,7 +24,7 @@ body{
     color: inherit;
 }
 a:hover{
-    border-bottom: 2px dotted #212121;
+    border-bottom: 2px dotted var(--dark-main-color);
 }
 .nav-list{
     display: flex;
@@ -109,9 +113,9 @@ a:hover{
 }
 .button1{
     flex-grow: 1;
-    background-color: white;
+    background-color: var(--main-color);
     border-style: none;
-    border: 1px solid black;
+    border: 1px solid var(--dark-main-color);
     padding: 0.5em;
     cursor: pointer;
     transition: background-color,color 0.5s;
@@ -120,14 +124,14 @@ a:hover{
 .button2:hover,
 .label-btn:hover
 {
-    background-color: #212121;
-    color: white;
+    background-color: var(--dark-main-color);
+    color: var(--main-color);
 }
 .button2{
     flex-grow: 1;
-    background-color: white;
+    background-color: var(--main-color);
     border-style: none;
-    border: 1px solid black;
+    border: 1px solid var(--dark-main-color);
     font-weight: 300;
     cursor: pointer;
     transition: background-color,color 1s;
@@ -209,17 +213,17 @@ p > span{
 .label-name-text{
     width: 28em;
     height: 2em;
-    border: 1px solid black;
+    border: 1px solid var(--dark-main-color);
 }
 .label-name-msg{
-    border: 1px solid black;
+    border: 1px solid var(--dark-main-color);
     outline: none;
     resize: none;
 }
 .label-btn{
-    background-color: white;
+    background-color: var(--main-color);
     border-style: none;
-    border: 1px solid black;
+    border: 1px solid var(--dark-main-color);
     padding: 0.3em 3em 0.3em 3em;
     margin-left: 43%;
     transition: background-color,color 1s;
@@ -233,7 +237,7 @@ p > span{
 footer{
     width: 100%;
     height: 90px;
-    background-color: #1D1D1E;
+    background-color: var(--dark-main-color);
 }
 
 .footer-flex{
@@ -241,7 +245,7 @@ footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    color: white;
+    color: var(--main-color);
 }
 .footer-socials{
     display: flex;
@@ -252,8 +256,8 @@ footer{
 /* ////////////////////////////////////// */
 
 .dark-mode{
-    background-color:#212121;
-    color: white;
+    background-color: var(--dark-main-color);
+    color: var(--main-color);
 }
 .dark-moon{
     border: #212121 solid 1px;
