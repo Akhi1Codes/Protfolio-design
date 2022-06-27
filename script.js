@@ -1,6 +1,11 @@
 function dark(){
     var ele = document.body;
     ele.classList.toggle("dark-mode");
+    changeImage()
+}
+
+
+function changeImage(){
     var Image_Id = document.getElementById('dark-mode');
         if (Image_Id.src.match("images/moon.gif")) {
             Image_Id.src = "images/sun.gif";

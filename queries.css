@@ -1,0 +1,37 @@
+@media only screen and (min-width: 720px) {
+.body{
+    background-color: brown;
+}
+}
+
+@media only screen and (max-width: 720px) {
+.home-main{
+    flex-direction: column;
+    height: auto;
+    padding: 1.2em;
+}
+.main-pro{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+.abt-flex{
+    flex-direction: column;
+}
+.abt-flex2{
+    flex-direction: column;
+}
+.cnt-flex{
+    flex-direction: column;
+}
+.footer-flex{
+    flex-direction: column;
+}
+.links{
+    width: auto;
+    padding: 0%;
+}
+.pro-text{
+    padding: 0%;
+}
+}
