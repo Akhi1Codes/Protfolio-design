@@ -181,6 +181,7 @@ p > span{
 .abt-test2{
     font-family: 'Grape Nuts', cursive;
     font-size: 35px;
+    max-width: 10em;
 }
 .abt-test2-sub{
     font-family:'Heebo', sans-serif;

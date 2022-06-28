@@ -16,6 +16,10 @@
     height: auto;
     row-gap:2em;
 }
+
+.aboutme{
+    padding-top: 4em;
+}
 .abt-flex{
     flex-direction: column;
     padding: 1.2em;
@@ -25,6 +29,7 @@
 .abt-flex2{
     flex-direction: column;
     padding: 1.2em;
+    row-gap:2em;
 }
 .abt-text-sub{
     gap: 0;
@@ -32,6 +37,8 @@
 .cnt-flex{
     flex-direction: column;
     padding: 1.2em;
+    row-gap:2em;
+    align-items: center;
 }
 .footer-flex{
     flex-direction: column;
@@ -40,7 +47,10 @@
     width: auto;
     padding: 0%;
 }
-.pro-text{
-    padding: 0%;
+.label-name-text{
+    width: 25em;
+}
+.label-name-msg{
+    width: 27.7em;
 }
 }
