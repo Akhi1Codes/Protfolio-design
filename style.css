@@ -31,9 +31,15 @@ a:hover{
     font-weight: 300;
 }
 .nav-ele{
+    max-width: 80em;
     min-width: 28em;
     cursor: pointer;
     text-decoration: none;
+}
+.home{
+    max-width: 80em;
+    margin-left: auto;
+    margin-right: auto;
 }
 .home-main{
     display: flex;
@@ -75,16 +81,17 @@ a:hover{
 
 /* ////////////////////////// */
  
+.projects{
+    max-width: 80em;
+}
 .pro-text{
-    padding: 5em 0 1em 0;
+    padding: 5em 0 1em 7em;
 }
 .pro-text-main{
-    padding-left: 2.5em;
     font-weight: 900;
     font-size: 2.5rem;
 }
 .pro-text-sub{
-    padding-left: 6.8em;
     font-weight:400;
 }
 .main-pro{
@@ -137,6 +144,9 @@ a:hover{
 
 /* /////////////////////////////// */
 
+.aboutme{
+    max-width: 80em;
+}
 .pro-text-mains{
     padding-left: 2.5em;
     font-weight: 900;
@@ -193,6 +203,7 @@ p > span{
 
 .contact{
     padding-top: 3em;
+    max-width: 80em;
 }
 .pro-text-subss{
     font-size: 0.9em;

@@ -29,8 +29,15 @@
     padding: 1.2em;
     row-gap:2em;
 }
+.abt-text{
+    text-align: center;
+}
 .abt-text-sub{
     gap: 0;
+}
+.pro-text{
+    padding: 5em 0 1em 0em;
+    text-align: center;
 }
 .cnt-flex{
     flex-direction: column;
@@ -46,9 +53,9 @@
     padding: 0%;
 }
 .label-name-text{
-    width: 25em;
+    max-width: 25em;
 }
 .label-name-msg{
-    width: 27.7em;
+    max-width: 27.7em;
 }
 }
